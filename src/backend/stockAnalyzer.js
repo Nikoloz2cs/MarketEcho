@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 // Replace with your actual Alpha Vantage API key
-const apiKey = '1SLPC6U2B1D907RB';
+const apiKey = '';
 
 async function fetchHistoricalData(stockSymbol, startDate, endDate) {
 const url = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=${stockSymbol}&apikey=${apiKey}&outputsize=full`;
